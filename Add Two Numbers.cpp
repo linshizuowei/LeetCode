@@ -15,9 +15,6 @@ struct ListNode {
 
 int main()
 {
-	//auto sum = make_shared<ListNode>();
-	//auto p = make_shared<ListNode>();
-	
 	clock_t start,end;
 	start = clock();
 	
@@ -57,13 +54,7 @@ int main()
 			p->next->val = tmp;
 			s = 0;
 		}
-//		cout << "sum->val:" << sum->val <<endl;
-//		auto ptr = make_shared<ListNode>();
-//		p->next->next = ptr;
-//		p->next = ptr;
-		
-		
-		
+	
 		ListNode *ptr = new ListNode(0);
 		p->next->next = ptr;
 		p->next = ptr;
@@ -75,8 +66,6 @@ int main()
 		
 		
 	}
-	
-	
 	
 	while ( l1 != NULL ){
 		if ( l1->val + s > 9){
@@ -127,7 +116,6 @@ int main()
 	cout << sum->next->next->val << endl;
 	cout << sum->next->next->next->val<< endl;
 	cout << sum->next->next->next->next->val<< endl;
-	
 	
 	end = clock();
 	cout << "running time:" << (double)(end-start)/CLOCKS_PER_SEC;
