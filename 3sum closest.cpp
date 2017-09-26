@@ -61,12 +61,6 @@ int main()
 			}
 			else 
 			{
-//				set.push_back({nums[k],nums[i],nums[j]});
-//				++i;
-//				while (nums[i] == nums[i-1]) ++i;
-//				--j;
-//				while (nums[j] == nums[j+1]) --j;
-				
 				closest = threesum;
 				sigal = 1;
 				break;
