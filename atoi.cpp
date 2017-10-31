@@ -97,10 +97,5 @@ int main()
 	}
 	
 	LNnum *= opt;
-	
-//	if ( LNnum >= 2147483647)
-//		cout << 2147483647 <<endl;
-//	if ( LNnum <= -2147483648)
-//		cout << -2147483648 << endl;
 	cout << LNnum << endl;
 }
